@@ -1,0 +1,157 @@
+@font-face {
+		font-family: Roboto;
+		src: url(fonts/Roboto-Regular.ttf);
+}
+	html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: times;
+	background-color: #f1f1f1;
+}
+
+.header {
+	background-color: #f1f7eb; /*f1f7eb (bright) or 0c0612 (dark)*/
+	margin: 0;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	padding: 0px;
+	margin: 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	margin: 0;
+	transition: all 0.10s;
+	-webkit-transition: all 0.10s;
+	float: left;
+	height: 100%;
+	display: inline-block;
+}
+
+.navbar a:hover {
+	background-color: #b2dfda;
+	color: black;
+}
+
+.current {
+	font-weight: bold;
+}
+
+.content {
+	background-color: #f1f1f1;
+	height: 100%;
+	margin: 0;
+}
+
+.descriptions {
+	background-color: #fff;
+	width: 50%;
+	padding: 13px;
+	padding-top: 5px;
+	margin: 13px;
+	display: block;
+	float: left;
+	z-index: 10;
+}
+
+.discog {
+	position: absolute;
+	right: 15px;
+	top: 172px;
+	display: table;
+	float: right;
+	clear: both;
+	content: "";
+}
+
+.discog img {
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin: 10px;
+	border: 2px solid #4f4f4f;
+}
+
+.bandphotos {
+	top: 400px;
+	position: absolute;
+	right: 15px;
+	border: 2px solid #4f4f4f;
+}
+
+.bandphotos1 {
+	top: 400px;
+	position: absolute;
+	right:550px;
+	border: 2px solid #4f4f4f;
+}
+
+.descriptions li a {
+	text-decoration: none;
+	color: black;
+	transition: all 0.10s;
+	-webkit-transition: all 0.10s;
+	padding: 3px;
+}
+
+.descriptions li a:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: -20px;
+	transition: 0.10s;
+	-webkit-transition: 0.10s;
+}
+
+.descriptions li a:hover {
+	background-color: #b2dfda;
+	padding-left: 15px;
+}
+
+.descriptions li a:hover a:after {
+	opacity: 1;
+	left: 0;
+}
+
+/*.page {
+	-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+  -moz-transform: scale(0.5); /* FF3.5+ */
+  -ms-transform: scale(0.5); /* IE9 */
+	-o-transform: scale(0.5); /* Opera 10.5+ */
+  transform: scale(0.5);
+	margin: 0px;
+}*/
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.column {
+	flex: 50%;
+	padding: 0 4px;
+	line-height: 0;
+	margin: 0;
+	-webkit-column-count: 5;
+	-webkit-column-gap: 10px;
+	-moz-column-count: 5;
+	-moz-column-gap: 10px;
+	column-count: 5;
+	column-gap: 10px;
+	width: 90%;
+}
+
+.column img  {
+	margin: 5px;
+	vertical-align: middle;
+	width: 100% !important;
+	height: auto !important;
+}

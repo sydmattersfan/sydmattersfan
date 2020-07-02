@@ -66,6 +66,7 @@
 	top: 172px;
 	/* display: table; */
 	display: flex;
+	flex-direction: column;
 	float: right;
 	clear: both;
 	content: "";

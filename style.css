@@ -2,7 +2,7 @@
 		/* font-family: Roboto;
 		src: url(fonts/Roboto-Regular.ttf); */
 		font-family: Sydmatters-Regular;
-		src: url(fonts/Sydmatters-Regular.ttf);
+		src: url('fonts/Sydmatters-Regular.ttf') format('truetype');
 }
 	html, body {
 	height: 100%;

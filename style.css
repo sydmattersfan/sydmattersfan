@@ -15,6 +15,10 @@
 	background-color: #f1f1f1;
 }
 
+pre {
+	font-size: 15px;
+}
+
 .header {
 	background-color: #f1f7eb; /*f1f7eb (bright) or 0c0612 (dark)*/
 	margin: 0;

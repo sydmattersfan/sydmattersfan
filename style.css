@@ -2,8 +2,7 @@
 		/* font-family: Roboto;
 		src: url(fonts/Roboto-Regular.ttf); */
     font-family: 'sydmattersregular';
-    src: url('fonts/sydmatters-regular-webfont.woff2') format('woff2'),
-         url('fonts/sydmatters-regular-webfont.woff') format('woff');
+    src: url(fonts/Sydmattersregular.ttf);
     font-weight: normal;
     font-style: normal;
 }
